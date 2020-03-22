@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.timer {
+  display: inline-flex;
+  width: 500px;
+  flex-direction: row;
+  padding: 50px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 150px;
+  font-size: 12px;
+}
+
+.field {
+  width: 200px;
+  margin-left: 10px;
+  background: rgb(125, 130, 156);
+  background: radial-gradient(
+    circle,
+    rgba(125, 130, 156, 1) 63%,
+    rgba(91, 147, 184, 0.4009978991596639) 100%
+  );
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.value {
+  font-size: 30px;
+}
+.label {
+  font-size: 20px;
+}
