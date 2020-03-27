@@ -34,7 +34,7 @@ class CountdownTimer {
     }
 
       pad(value) {
-      return String(value).padStart(2, '0');
+      return String(value).padStart(1, '0');
     }
   }
   
