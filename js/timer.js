@@ -7,9 +7,9 @@ class CountdownTimer {
       this.timerWindow = document.querySelector(selector)
       
       this.seconds = this.timerWindow.querySelector('span[data-value="secs"]');
-      this.minutes = this.timerWindow.querySelector('span[data-value="mins"]');;
-      this.hours = this.timerWindow.querySelector('span[data-value="hours"]');;
-      this.days = this.timerWindow.querySelector('span[data-value="days"]');;;
+      this.minutes = this.timerWindow.querySelector('span[data-value="mins"]');
+      this.hours = this.timerWindow.querySelector('span[data-value="hours"]');
+      this.days = this.timerWindow.querySelector('span[data-value="days"]');
       this.time = null;
       this.setInterval();
     }
@@ -18,7 +18,7 @@ class CountdownTimer {
       const getTimeRemaining = setInterval(() => {
         this.time = this.targetDate - new Date();
         this.result(getTimeRemaining);
-      }, 1000);
+      }, );
       this.result(getTimeRemaining);
     }
   
